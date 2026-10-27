@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{539BC095-9FD0-4215-BACC-E3277A84166A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Auth.Domain", "src\Arishma.Auth.Domain\Arishma.Auth.Domain.csproj", "{484129B2-C066-48DF-BE41-97B7A4A8E7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Auth.Application", "src\Arishma.Auth.Application\Arishma.Auth.Application.csproj", "{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Auth.Infrastructure", "src\Arishma.Auth.Infrastructure\Arishma.Auth.Infrastructure.csproj", "{82E6D686-A2A9-4F75-A5D3-02D8245A4592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Auth.Api", "src\Arishma.Auth.Api\Arishma.Auth.Api.csproj", "{89B9841D-A186-46DD-88B6-31E61825868D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AC7D5E3C-A2CD-4D47-B1E2-A98E321990FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Auth.Tests", "tests\Arishma.Auth.Tests\Arishma.Auth.Tests.csproj", "{651C40AA-84F6-407C-BE30-2B58BD848644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{484129B2-C066-48DF-BE41-97B7A4A8E7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484129B2-C066-48DF-BE41-97B7A4A8E7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484129B2-C066-48DF-BE41-97B7A4A8E7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484129B2-C066-48DF-BE41-97B7A4A8E7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E6D686-A2A9-4F75-A5D3-02D8245A4592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E6D686-A2A9-4F75-A5D3-02D8245A4592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E6D686-A2A9-4F75-A5D3-02D8245A4592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E6D686-A2A9-4F75-A5D3-02D8245A4592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B9841D-A186-46DD-88B6-31E61825868D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B9841D-A186-46DD-88B6-31E61825868D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B9841D-A186-46DD-88B6-31E61825868D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B9841D-A186-46DD-88B6-31E61825868D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651C40AA-84F6-407C-BE30-2B58BD848644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651C40AA-84F6-407C-BE30-2B58BD848644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651C40AA-84F6-407C-BE30-2B58BD848644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651C40AA-84F6-407C-BE30-2B58BD848644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{484129B2-C066-48DF-BE41-97B7A4A8E7B6} = {539BC095-9FD0-4215-BACC-E3277A84166A}
+		{1BBA1BE0-0EB1-446A-9C7C-F5C2ECDF10F5} = {539BC095-9FD0-4215-BACC-E3277A84166A}
+		{82E6D686-A2A9-4F75-A5D3-02D8245A4592} = {539BC095-9FD0-4215-BACC-E3277A84166A}
+		{89B9841D-A186-46DD-88B6-31E61825868D} = {539BC095-9FD0-4215-BACC-E3277A84166A}
+		{651C40AA-84F6-407C-BE30-2B58BD848644} = {AC7D5E3C-A2CD-4D47-B1E2-A98E321990FA}
+	EndGlobalSection
+EndGlobal
